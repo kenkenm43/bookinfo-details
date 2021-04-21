@@ -6,6 +6,7 @@ details:
   imagePullSecrets: registry-bookinfo
   port: 9080
   healthCheckPath: "/health"
+
 ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
