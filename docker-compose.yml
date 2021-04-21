@@ -1,9 +1,6 @@
 services:
-  ratings:
+  details:
     build: .
-    image: ghcr.io/panus2544/bookinfo:main
+    image: ghcr.io/kenkenm43/bookinfo-details:dev
     ports:
-      - "8080:8080"
-    environment:
-      SERVICE_VERSION: v1
-© 2021 GitHub, Inc.
+      - "9080:9080"
